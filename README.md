@@ -1,0 +1,1 @@
+## このコードはHTML/CSS/Javascriptの個人学習用です。
