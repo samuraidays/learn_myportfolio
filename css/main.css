@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #363537;
+    color: #FFFFFF;
+
+    text-align: center;
+}
+
+
+.title_disc_before {
+    margin: 150px;
+    background-color: #363537;
+}
+
+/* 見出しのマージン初期化 */
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+/* 段落のマージン初期化 */
+p {
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+/* 画像のマージン初期化 */
+img {
+    vertical-align: bottom;
+}
