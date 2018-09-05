@@ -8,14 +8,18 @@ body {
 header {
     background-color: #363537;
     color: #FFFFFF;
-
+    padding: 170px 30px 80px;
     text-align: center;
 }
 
 
-.title_disc_before {
-    margin: 150px;
-    
+.title {
+    margin: 40px 0px 0px;
+    font-size: 80px;
+}
+
+.title_disc_after {
+    margin: 0px 0px 50px;
 }
 
 /* 見出しのマージン初期化 */
