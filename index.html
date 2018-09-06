@@ -8,6 +8,7 @@
     <!-- CSS読み込み -->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!-- JS読み込み-->
     <script src="./js/jquery-3.3.1.min.js"></script>
@@ -54,33 +55,51 @@
                 </p>
             </div>
         </div>
-        <div class="myskills">
+        <section class="myskills">
             <h2>MY SKILLS</h2>
-            <section>
-                <h3>Action</h3>
-                <p>
-                    当たり前を疑います。<br>
-                    考えるだけでなく行動します<br>
-                    誰よりも先に、結果を出します。
-                </p>
-            </section>
-            <section>
-                <h3>Design</h3>
-                <p>
-                    見た目の綺麗さに加えて、<br>
-                    使いやすいさ、情報の伝わりやすさ、<br>
-                    常にユーザー視点で考え実行します。
-                </p>
-            </section>
-            <section>
-                <h3>Sales</h3>
-                <p>
-                    個人売上目標120%超え、1位獲得。<br>
-                    クレーム件数、前年比40%削減することに成功。<br>
-                    社員5名をまとめ、チーム内の離職率ゼロを達成。
-                </p>
-            </section>
-        </div>
+        
+            <div class="skills_wrapper">
+                <div class="skills_box">
+                    <i class="skill_icon fas fa-laptop-code"></i>
+                    <div class="skill_title"><h3>Coding</h3></div>
+                    <p class="skill_text">
+                        コードを書きます。<br>
+                        Webサイト制作や<br>
+                        Webシステムを開発します。
+                    </p>       
+                </div>
+
+                <div class="skills_box">
+                    <i class="skill_icon fas fa-database"></i>
+                    <h3>Digital</h3>
+                    <p class="skill_text">
+                        Digitalで企業課題を解決します。<br>
+                        課題にフォーカスして、<br>
+                        Technologyの力で解決します。
+                    </p>       
+                </div>
+    
+                <div class="skills_box">
+                    <i class="skill_icon fas fa-bullseye"></i>
+                    <h3>Marketing</h3>
+                    <p class="skill_text">
+                        どこでだれと戦っているのか？<br>
+                        ポジションを取り、<br>
+                        戦略を明確にします。
+                    </p>       
+                </div>
+
+                <div class="skills_box">
+                        <i class="skill_icon fab fa-blogger"></i>
+                        <h3>Blogger</h3>
+                        <p class="skill_text">
+                            情報発信力<br>
+                            世の中に対して、情報発信します<br>
+                        </p>       
+                </div>
+            </div>
+        </section>
+
         <div class="contact">
             <h2>CONTACT</h2>
             <form action="" method="POST">
@@ -89,7 +108,6 @@
                 <p><input type="submit" value="send"></p>
             </form>
         </div>
-    </div>
     <div class="footer">
         <p>
             <small>&copy; 2018 TAKA...Programming</small>
